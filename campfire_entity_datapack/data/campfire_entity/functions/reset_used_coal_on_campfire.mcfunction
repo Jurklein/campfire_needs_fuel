@@ -1,0 +1,3 @@
+#advancement revoke @s only campfire_entity:used_coal_on_campfire
+
+say OIAHDOIAHDOISAHDAHSDPIUSAHDPAIUSHDPIUSAHDPAIUSHDPISA

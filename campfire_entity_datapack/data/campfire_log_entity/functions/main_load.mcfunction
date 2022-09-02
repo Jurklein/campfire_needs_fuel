@@ -1,0 +1,4 @@
+
+scoreboard objectives add placeCampfireLog minecraft.used:buildable_campfire.campfire_log
+scoreboard players set jurklein placeCampfireLog 0
+scoreboard objectives add breakCampfireLog minecraft.broken:buildable_campfire.campfire_log

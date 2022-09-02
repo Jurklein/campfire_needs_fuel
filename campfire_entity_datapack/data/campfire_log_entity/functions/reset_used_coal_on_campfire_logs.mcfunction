@@ -1,0 +1,3 @@
+advancement revoke @s only campfire_log_entity:used_coal_on_campfire_logs
+function campfire_log_entity:correct_predefined_logs_ep
+

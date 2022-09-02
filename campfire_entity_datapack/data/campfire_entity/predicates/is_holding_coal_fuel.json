@@ -1,0 +1,6 @@
+{
+    "condition": "minecraft:match_tool",
+    "predicate": {
+      "tag": "buildable_campfire:items/campfire_ingredients"
+    }
+}
