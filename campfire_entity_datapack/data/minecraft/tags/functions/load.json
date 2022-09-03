@@ -1,7 +1,9 @@
 {
    "values": [
+      "campfire_util:main_load",
       "campfire_entity:main_load",
       "campfire_log_entity:main_load",
+      "campfire_fuel:main_load",
       "unlit_campfire:main_load"
    ]
 }

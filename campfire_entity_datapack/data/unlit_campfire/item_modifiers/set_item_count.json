@@ -1,0 +1,6 @@
+[
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{display:{Name:'{\"text\":\"Campfire Unlit\",\"italic\":false}'},CustomModelData:50,BlockStateTag:{lit:\"false\"}}"
+    }
+]

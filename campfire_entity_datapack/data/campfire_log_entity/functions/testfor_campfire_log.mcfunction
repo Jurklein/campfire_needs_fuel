@@ -8,9 +8,9 @@ execute unless entity @e[type=armor_stand,distance=..0.9,tag=campfire_log] run f
 
 
 
-execute as @e[type=armor_stand,distance=..0.9,tag=campfire_log,tag=crafted] at @s run function campfire_log_entity:set_entity_for_preexisting_log
+execute as @e[type=armor_stand,distance=..0.9,tag=campfire_log,tag=crafted] at @s run function campfire_log_entity:set_block_based_on_entity
 #say hi2
-execute as @e[type=armor_stand,distance=..0.9,tag=campfire_log,tag=crafting] at @s run function campfire_log_entity:set_facing_log
+execute as @e[type=armor_stand,distance=..0.9,tag=campfire_log,tag=crafting] at @s run function campfire_log_entity:set_facing_rand
 
 #fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:campfire[lit=false] replace minecraft:command_block
 scoreboard players set jurklein placeCampfireLog 0

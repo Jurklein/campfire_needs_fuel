@@ -8,4 +8,6 @@ execute if entity @s[tag=south] run data modify entity @s Tags set value [campfi
 execute if entity @s[tag=west] run setblock ~ ~ ~ campfire[lit=false,facing=west] replace
 execute if entity @s[tag=west] run data modify entity @s Tags set value [campfire,crafted,west,"false"]
 
-#scoreboard players set jurklein placeCampfireLog 0
+
+function campfire_fuel:set_starting_fuel
+

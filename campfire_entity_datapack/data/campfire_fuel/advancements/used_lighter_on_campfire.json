@@ -1,9 +1,8 @@
-
 {
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "From Log to Log!"
+            "text": "Used Lighter on Campfire!"
         },
         "description": {
             "text": "Description"
@@ -22,17 +21,17 @@
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "item": {
-                    "tag": "buildable_campfire:campfire_ingredients"
+                    "tag": "minecraft:lighter_tools"
                 },
                 "location": {
                     "block": {
-                        "block": "builable_campfire:campfire_log"
+                        "tag": "minecraft:campfires"
                     }
                 }
             }
         }
     },
     "rewards": {
-        "function": "campfire_log_entity:reset_used_coal_and_convert_to_campfire"
+        "function": "campfire_fuel:reset_used_lighter_and_update_entity"
     }
 }
