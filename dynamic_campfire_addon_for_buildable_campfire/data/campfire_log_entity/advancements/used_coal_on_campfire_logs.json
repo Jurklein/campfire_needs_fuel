@@ -1,0 +1,21 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "tag": "buildable_campfire:campfire_ingredients"
+                },
+                "location": {
+                    "block": {
+                        "tag": "minecraft:campfires"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "campfire_log_entity:reset_used_coal_and_convert_to_campfire"
+    }
+}

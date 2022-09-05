@@ -1,0 +1,1 @@
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["campfire","crafting","false"],Invulnerable:1b,NoGravity:1b,Duration:2147483647,Radius:0.0f}

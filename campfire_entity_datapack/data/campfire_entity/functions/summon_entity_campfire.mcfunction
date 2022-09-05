@@ -1,1 +1,0 @@
-summon minecraft:armor_stand ~ ~ ~ {Tags:["campfire","crafting","false"],Invulnerable:1b,NoGravity:1}

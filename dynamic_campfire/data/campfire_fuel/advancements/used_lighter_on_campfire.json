@@ -1,0 +1,21 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "item used on block": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "tag": "minecraft:lighter_tools"
+                },
+                "location": {
+                    "block": {
+                        "tag": "minecraft:campfires"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "campfire_fuel:reset_used_lighter_and_update_entity"
+    }
+}

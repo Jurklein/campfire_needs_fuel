@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "campfire_entity:main_tick",
-        "campfire_log_entity:main_tick",
-        "campfire_fuel:main_tick",
-        "unlit_campfire:main_tick"
-    ]
-}
